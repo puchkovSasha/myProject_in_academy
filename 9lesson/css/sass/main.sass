@@ -1,0 +1,87 @@
+*
+	padding: 0
+	margin: 0
+	font-family: "Roboto Slab", serif
+	box-sizing: border-box
+body
+	width: 100%
+	background: linear-gradient(to bottom right, #c1f0f3, #e5f2f3)  no-repeat
+.container
+	width: 1540px
+	margin: 0px auto
+	// border: 1px solid red
+.main-img
+	float: right
+	transform: translate(-143px, -155px)
+	&:before, :after
+		display: table
+		content: ""
+		clear: both
+.main-text
+	margin-top: 189px
+	&__title
+		font-size: 60px
+		font-weight: 700
+		line-height: 59px
+		color: #7c6db0
+		margin-bottom: 30px
+		letter-spacing: 3px
+	&__subtitle
+		color: #ffffff
+		font-size: 37px
+		font-weight: 700
+		line-height: 59px
+		background-color: #7f70b1
+		padding: 6px 25px
+		display: inline-block
+		margin-bottom: 94px
+	&__descr 
+		display: flex
+		// border: 1px solid red
+		align-items: center
+		margin-bottom: 119px
+		img
+			margin-right: 36px
+			margin-left: 11px
+		p 
+			line-height: 30px
+			font-size: 22px
+.button
+	outline: none
+	font-size: 23px
+	font-weight: 700
+	line-height: 26px
+	box-shadow: 0 2px 16px rgba(0, 215, 255, 0.44)
+	background-color: #1eb8b0
+	background-image: linear-gradient(-230deg, #01c4e0 0%, #01b3e0 100%)
+	padding: 24px 54px
+	border: 2px solid #1eb8b0
+	color: #fff
+.btn-o
+	margin-left: 30px
+	background-color: transparent
+	border: 2px solid #1eb8b0 
+	background-image: none
+	color: #01b3e0
+	padding: 24px 72px
+	margin-left: 18px
+@media (max-width: 1281px)
+	.main-img
+		width: 45%
+		z-index: -1
+		position: relative
+@media (max-width: 1025px)
+	.main-img
+		width: 65%
+		z-index: -1
+		position: relative
+	.main-text
+		margin-left: 15px
+	.button
+		margin-bottom: 15px
+	.btn-o
+		margin-left: 0px
+		padding: 24px 75px
+
+
+

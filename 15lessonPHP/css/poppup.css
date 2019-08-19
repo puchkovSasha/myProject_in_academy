@@ -1,0 +1,102 @@
+
+.overlay {
+  position: fixed;
+  display: none;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.poppup {
+  position: fixed;
+  left: 50%;
+  width: 750px;
+  top: 100px;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: #fff;
+}
+
+.poppup-note {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 30px;
+  padding-bottom: 49px;
+}
+
+.poppup-btn {
+  width: 180px;
+  height: 56px;
+  margin: 0;
+}
+
+.poppup-close {
+  position: absolute;
+  color: #ffffff;
+  font-size: 32px;
+  right: -19px;
+  top: -36px;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.poppup-title {
+  display: block;
+  min-height: 71px;
+  width: 100%;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 22px;
+  text-transform: uppercase;
+  padding-top: 23px;
+  color: #fff;
+  background-color: #ff9d00;
+}
+
+.poppup-form {
+  background: url("../img/poppup-bg.jpg") no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.poppup-form label {
+  margin: 0;
+  padding: 0;
+  padding-top: 23px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  display: block;
+  text-align: center;
+  padding-bottom: 17px;
+}
+
+.poppup-form input {
+  width: 365px;
+  height: 56px;
+  border-radius: 3px;
+  border: none;
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 9px;
+  margin-right: 8px;
+  text-align: center;
+}
+
+.poppup-main__form {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 27px;
+  padding-top: 41px;
+  text-align: center;
+}
+
+.poppup-main__form span {
+  font-size: 24px;
+  text-align: center;
+}
